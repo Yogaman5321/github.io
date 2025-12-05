@@ -1,10 +1,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  justify-content: center;
-  align-items: center;
   background: #F7F7F7;
-  }
+}
+
 
 nav {
   display: flex;
