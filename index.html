@@ -9,30 +9,6 @@
 
         <button onclick="goToPage()">Go to Main Page</button>
         
-        <svg width="200" height="200" viewBox="0 0 200 200">
-        <!-- Hand shape -->
-        <g id="hand" fill="#f4c28b" stroke="#000" stroke-width="3">
-            <!-- Palm -->
-            <path d="M120 90 L70 90 Q55 90 55 75 L55 55 Q55 40 70 40 L120 40 Z" />
-            <!-- Thumb -->
-            <path d="M120 40 L135 40 Q150 40 150 55 L150 75 Q150 90 135 90 L120 90 Z" />
-            <!-- Finger pointing left -->
-            <rect x="20" y="60" width="40" height="10" rx="5" />
-            <rect x="20" y="75" width="40" height="10" rx="5" />
-          </g>
-
-          <!-- Animation: slight wiggle left and right -->
-          <animateTransform
-            xlink:href="#hand"
-            attributeName="transform"
-            type="translate"
-            dur="0.6s"
-            values="0,0; -6,0; 0,0"
-            repeatCount="indefinite"
-          />
-        </svg>
-
-
         
         <script>
           function goToPage() {
