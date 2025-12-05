@@ -142,17 +142,15 @@ nav {
 
 .something-text {margin: 15px;}
 
-.triangle {
-  fill: #1e90ff;
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: point-wiggle 1.2s ease-in-out infinite;
-}
+  @keyframes float {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(12px); }
+    100% { transform: translateY(0); }
+  }
 
-@keyframes point-wiggle {
-  0%   { transform: translateX(0) rotate(0deg); }
-  20%  { transform: translateX(-6px) rotate(-6deg); }
-  50%  { transform: translateX(0) rotate(0deg); }
-  80%  { transform: translateX(-6px) rotate(6deg); }
-  100% { transform: translateX(0) rotate(0deg); }
-}
+  .triangle {
+    animation: float 2s ease-in-out infinite;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+
