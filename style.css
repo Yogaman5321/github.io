@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: #F7F7F7;
+  }
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background: #c6c8cf;
+  padding: 0 10px;
+  height: 30px; 
+  position: fixed;
+  top: 0;
+  left: 0;       
+  width: 100%; 
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px;
+  }
+
+.heard {
+  font-size: 40px;
+  color: gray;
+  text-shadow: 2px 2px black;
+  }
+
+.big {
+  font-size: 25px;
+}
+
+.critically {
+  font-size: 45px;
+  background: linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px black;
+  }
+
+.gray-text {
+  font-size: 50px;
+  color: #989595;
+  text-shadow: 2px 2px #000;
+  }
+
+.xiv {
+  font-size: 70px;
+  color: deepskyblue;
+  text-shadow: 3px 3px navy;
+  }
+
+.expanded {
+  font-size: 50px;
+  color: #bbb;
+  text-shadow: 2px 2px #333;
+  }
+
+.free {
+  font-size: 60px;
+  background: linear-gradient(#fff, #600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px black;
+  }
+
+.reborn {
+  font-size: 40px;
+  color: purple;
+  font-style: italic;
+  }
+
+.heavensward {
+  font-size: 55px;
+  color: royalblue;
+  text-shadow: 2px 2px black;
+  }
+
+.stormblood {
+  font-size: 55px;
+  color: red;
+  text-shadow: 2px 2px black;
+  }
+
+.green {
+  color: green;
+  font-size: 45px;
+  }
+
+.no-restrict {
+  font-size: 30px;
+  color: darkcyan;
+}
+
+.level70 { 
+  font-size: 2em;
+  font-weight: bold;
+  color: darkgreen;
+  text-shadow: 2px 2px black;
+  }
+
+.hi {
+  font-size: 400px;
+  clear: both;
+  float: left;
+  margin: 1px;
+  text-shadow: 5px 5px lightblue;
+}
+
+.home-text {
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px 0px 0px 10px;
+  clear: both;
+}
+
+.line{ font-weight: bold;}
+
+.expansion {font-size: 35px;}
+
+.img-style {
+  float: left;
+  clear: right;
+  margin-right: 5px;
+}
+
+.award-winning {
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+  font-size: 40px;
+}
+
+.something-text {margin: 15px;}
