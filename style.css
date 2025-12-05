@@ -142,15 +142,20 @@ nav {
 
 .something-text {margin: 15px;}
 
-  @keyframes float {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(12px); }
-    100% { transform: translateY(0); }
-  }
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(12px); }
+  100% { transform: translateY(0); }
+}
 
-  .triangle {
-    animation: float 2s ease-in-out infinite;
-    transform-box: fill-box;
-    transform-origin: 50% 50%;
-  }
+.triangle {
+  animation: float 2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
 
+.arrow-under{
+  text-align: center;
+  margin-top: 20px;
+}
+ 
