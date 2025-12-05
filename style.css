@@ -142,3 +142,18 @@ nav {
 }
 
 .something-text {margin: 15px;}
+
+.triangle {
+  fill: #1e90ff;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: point-wiggle 1.2s ease-in-out infinite;
+}
+
+@keyframes point-wiggle {
+  0%   { transform: translateX(0) rotate(0deg); }
+  20%  { transform: translateX(-6px) rotate(-6deg); }
+  50%  { transform: translateX(0) rotate(0deg); }
+  80%  { transform: translateX(-6px) rotate(6deg); }
+  100% { transform: translateX(0) rotate(0deg); }
+}
