@@ -4,20 +4,6 @@ body {
   background: #F7F7F7;
 }
 
-
-nav {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  background: #c6c8cf;
-  padding: 0 10px;
-  height: 30px; 
-  position: fixed;
-  top: 0;
-  left: 0;       
-  width: 100%; 
-  }
-
 .container {
   display: flex;
   flex-direction: column;
